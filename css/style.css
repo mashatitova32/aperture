@@ -182,8 +182,6 @@ section h1{
     justify-content: space-around;
 }
 .container_second article img{
-    max-width: 576px;
-    min-height: 600px;
     margin-bottom: 16px;
 }
 .article_size{
@@ -225,9 +223,8 @@ section h1{
     border-radius: 14px;
     padding: 5px 5px 5px;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    max-width: 143px;
 }
 .article_size a:before{
     content:  "";
