@@ -143,13 +143,13 @@ section h1{
     top: 6px;
 }
 .navigation li:last-of-type:before{
-      content: url("../img/4.svg");
-      display: inline-block;
-      width: 10px;
-      height: 16px;
-    margin-right: 6px;
-    position: relative;
-    top: 6px;
+   content: url("../img/4.svg");
+   display: inline-block;
+   width: 10px;
+   height: 16px;
+   margin-right: 6px;
+   position: relative;
+   top: 6px;
 }
 .container_second h2{
     font-family: 'Poppins';
