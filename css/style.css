@@ -10,6 +10,7 @@
     display: flex;
     justify-content: space-between;
 }
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -163,9 +164,6 @@ section h1{
     margin-bottom:15px;
     text-align: center;
 }
-.container_second{
-    padding: 120px 0 100px 0;
-}
 .areas{
     font-family: 'Poppins';
     font-style: normal;
@@ -180,6 +178,9 @@ section h1{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+.container_second {
+    padding: 120px 0 100px 0;
 }
 .container_second article img{
     margin-bottom: 16px;
@@ -299,6 +300,62 @@ section h1{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+}
+.clients h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.clients h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 111px;
+}
+.clients a{
+    text-decoration: none;
+}
+.clients_flex{
+    align-items: center;
+}
+.owl-item img{
+    max-width: 128px;
+    display: inline-block;
+}
+.owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
+}
+.owl-stage{
+    display: inline-flex;
+    align-items: center;
+}
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.clients .owl-carousel  .owl-dot span{
+    background-color: gray;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.clients .owl-carousel  .active span{
+    background-color: white;
 }
 .star{
     background-image: url("../img/star.jpg");
