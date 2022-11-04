@@ -529,6 +529,7 @@ body {
     padding: 0;
     margin: 0;
     z-index: 2;
+    top: 0;
 
 }
 .nav__list-item {
