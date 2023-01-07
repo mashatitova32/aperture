@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Aperture</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="https://resources/demos/style.css">
@@ -35,7 +35,7 @@
                 <li class="nav__list-item"><a href="#" class="hover-target">Featured images</a></li>
                 <li class="nav__list-item"><a href="#" class="hover-target">Gear cage</a></li>
                 <li class="nav__list-item"><a href="#" class="hover-target">Contact</a></li>
-                <li class="nav__list-item_last list_style"><a href="#" class="hover-target">Get template</a></li>
+                <li class="nav__list-item_last"><a href="#" class="hover-target">Get template</a></li>
             </ul>
         </div>
      </div>
@@ -65,7 +65,7 @@
         <div id="accordion">
             <h3>Example</h3>
             <div class="container product">
-                <article class="position">
+                <article class="position size">
                     <img src="img/product.jpg" alt="product">
                     <div class="article_size">
                         <h3>Product Photography</h3>
@@ -74,7 +74,7 @@
                         <a href="#">Read more</a>
                     </div>
                 </article>
-                <article class="position">
+                <article class="position size">
                     <img src="img/Architecture.jpg" alt="architecture">
                     <div class="article_size">
                         <h3>Architecture Photography</h3>
@@ -86,8 +86,8 @@
                 </article>
             </div>
             <h3>Example other</h3>
-            <div>
-                <article class="position">
+            <div class="container product">
+                <article class="position size">
                     <img src="img/drone.jpg" alt="drone">
                     <div class="article_size">
                         <h3>Drone Photography</h3>
@@ -97,7 +97,7 @@
                         <a href="#">Read more</a>
                     </div>
                 </article>
-                <article class="position">
+                <article class="position size">
                     <img src="img/wildlife.jpg" alt="wildlife">
                     <div class="article_size">
                         <h3>Wildlife Photography</h3>
@@ -135,6 +135,21 @@
             <li>100</li>
             <li>Costa Rica</li>
         </ul>
+</section>
+<section class="cage background position">
+    <div class="container">
+        <h4>The Gear cage</h4>
+        <h3>The tools that we use.</h3>
+        <p>The say that "no place is boring if you've had a good night's sleep and have a pocket full of unexposed film". While we don't shoot (a lot) of film these days — these are the tools that we actually use everyday to capture the amazing things around us.</p>
+        <a href="#">Check it out</a>
+        <div class="foto">
+            <ul class="navigation">
+            <li>0,8''</li>
+            <li>f/5,6</li>
+            <li>500</li>
+            <li>Sweden</li>
+        </ul></div>
+    </div>
 </section>
 <section class="background clients ">
     <div class="container container_second">
@@ -202,6 +217,113 @@
             <li>Nepal</li>
         </ul>
 </section>
+<section class="help background">
+    <div class="container">
+        <h2>
+            Need help with photography or videography?
+        </h2>
+        <p>We're here for you!</p>
+        <a href="#">Get in touch</a>
+    </div>
+</section>
+<footer class="background">
+    <div class="container">
+        <div class="d-flex">
+            <div class="mb">
+            <a href="#">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+            <p>Photographers & videographers capturing the world around us.</p>
+            </div>
+                <ul>
+                <li  class="fl">
+                    Business areas
+                </li>
+                <li>
+                    <a href="#">Product Photography</a>
+                </li>
+                <li>
+                    <a href="#">Architecture Photography</a>
+                </li>
+                <li>
+                    <a href="#">Drone Photography</a>
+                </li>
+                <li>
+                    <a href="#">Wildlife Photography</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li  class="fl">
+                    Pages
+                </li>
+                <li>
+                    <a href="#">
+                        Gear cage
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Featured images
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Style guide
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Instructions
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Changelog
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="line"></div>
+    <div class="subscribe d-flex">
+        <div class="text">
+            <h5>Subscribe to our newsletter</h5>
+            <p>Read about all the things we do.</p>
+        </div>
+        <form name="search_form" action="#" method="post">
+            <label for="email">Email</label>
+            <input name="email" type="email" placeholder="" id="email" class="bckgrnd">
+            <button type="submit"></button>
+        </form>
+    </div>
+        <div class="line_2"></div>
+        <div class="reserved d-flex">
+           <p>© Aperture Photography, Inc. All rights reserved.Licensing</p>
+       <ul class="d-flex">
+           <li>
+               <a href="#">
+                   <img src="img/twitter.svg" alt="twitter">
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="img/instagram.svg" alt="instagram">
+               </a>
+           </li>
+           <li>
+               <a href="#">
+                   <img src="img/facebook.svg" alt="facebook">
+               </a>
+           </li>
+       </ul>
+        </div>
+    </div>
+</footer>
 <script src="https://kit.fontawesome.com/c090ec296e.js" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
